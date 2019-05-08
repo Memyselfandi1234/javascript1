@@ -5,11 +5,13 @@
 <h2>Use JavaScript to Change Text</h2>
 <p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
 
-<p id="demo"></p>
-
+<p id="like"></p>
+  <button type="button" onclick="likeFunction()">Like</button>
 <script>
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-</script> 
+function likeFunction() {
+  document.getElementById("like").innerHTML = "Liked!";
+}
+  </script> 
 
 </body>
 </html>
